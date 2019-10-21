@@ -12,6 +12,8 @@ import { CurrentTrainingComponent } from './training/current-training/current-tr
 import { PreviousTrainingComponent } from './training/previous-training/previous-training.component';
 import { NextTrainingComponent } from './training/next-training/next-training.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
