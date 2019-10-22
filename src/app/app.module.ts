@@ -14,6 +14,8 @@ import { NextTrainingComponent } from './training/next-training/next-training.co
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
+import { NavToolbarComponent } from './navigation/nav-toolbar/nav-toolbar.component';
+import { SidenavComponent } from './navigation/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FormsModule } from '@angular/forms';
     CurrentTrainingComponent,
     PreviousTrainingComponent,
     NextTrainingComponent,
-    DashboardComponent
+    DashboardComponent,
+    NavToolbarComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
