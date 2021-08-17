@@ -1,0 +1,8 @@
+<p mat-dialog-title>Are you sure!</p>
+<mat-dialog-content>
+  <p>You already completed {{inputData.progress}}%</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button color="warn" [mat-dialog-close]="true">Yes</button>
+  <button mat-raised-button color="accent" [mat-dialog-close]="false">No</button>
+</mat-dialog-actions>
